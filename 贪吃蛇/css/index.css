@@ -1,0 +1,49 @@
+*{  
+    /* 去除内外边距 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 整体游戏容器样式 */
+.container{
+    width: 600px;
+    height: 600px;
+    background: #225675;
+    border: 20px solid #7dd9ff;
+    position: relative;
+    top: 0;;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* 按钮公共样式 */
+.container button{
+    border: none;
+    outline: none;
+}
+
+/* 开始按钮 */
+.startBtn{
+    width: 200px;
+    height: 80px;
+    background: url(../img/startGame.png) no-repeat center /cover ;
+    display: block;
+} 
+
+/* 暂停按钮 */
+.pauseBtn{
+    width: 70px;
+    height: 70px;
+    background: url(../img/pause.png) no-repeat center/ contain;
+    display: none;
+}
